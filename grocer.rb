@@ -85,9 +85,9 @@ i = 0
 
 consolidate_cart = consolidate_cart(cart)
 
-consolidate_cart = apply_coupons(consolidate_cart, coupons)
-pp cart
-cart = apply_clearance(cart)
+couponed_cart = apply_coupons(consolidate_cart, coupons)
+
+couponed_cart = apply_clearance(cart)
 pp cart
 
 while i < cart.length do

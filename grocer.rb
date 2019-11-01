@@ -89,7 +89,7 @@ pp final_cart
 
 total = 0
 i = 0
-while i < cart.length do
+while i < final_cart.length do
   total += (final_cart[i][:price] * final_cart[i][:count])
   i += 1
 end

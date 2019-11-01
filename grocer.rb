@@ -84,8 +84,8 @@ total = 0
 i = 0
 
 consolidate_cart = consolidate_cart(cart)
-pp cart
-consolidate_cart = apply_coupons(cart, coupons)
+
+consolidate_cart = apply_coupons(consolidate_cart, coupons)
 pp cart
 cart = apply_clearance(cart)
 pp cart

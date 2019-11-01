@@ -80,7 +80,7 @@ def checkout(cart, coupons)
   # * apply_coupons
   # * apply_clearance
   #
-consolidate_cart(cart)
+cart = consolidate_cart(cart)
 
 
 

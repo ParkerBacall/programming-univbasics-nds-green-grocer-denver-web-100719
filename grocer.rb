@@ -97,7 +97,8 @@ end
 
 if total > 100
   total = (total - (total * 0.1)).round(2)
-
+end
+  total
   # BEFORE it begins the work of calculating the total (or else you might have
   # some irritated customers
 end

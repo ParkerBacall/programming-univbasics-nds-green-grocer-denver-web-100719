@@ -91,7 +91,7 @@ final_cart = apply_clearance(couponed_cart)
 
 
 while i < cart.length do
-  total = (final_cart[i][:price]* final_cart[i][:count])
+  total += (final_cart[i][:price]* final_cart[i][:count])
   i += 1
 end
 

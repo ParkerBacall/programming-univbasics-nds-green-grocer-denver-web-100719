@@ -90,7 +90,9 @@ pp cart
 cart = apply_clearance(cart)
 pp cart
 
-while i < cat.length
+while i < cart.length do
+  
+end
 
 
 

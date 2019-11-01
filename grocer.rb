@@ -69,9 +69,7 @@ while i < cart.length do
   end
   i += 1
 end
-
 cart
-  # REMEMBER: This method **should** update cart
 end
 
 def checkout(cart, coupons)

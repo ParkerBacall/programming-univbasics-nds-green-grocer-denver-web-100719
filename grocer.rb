@@ -80,12 +80,15 @@ def checkout(cart, coupons)
   # * apply_coupons
   # * apply_clearance
   #
+total = 0
+
 cart = consolidate_cart(cart)
 pp cart
 cart = apply_coupons(cart, coupons)
 pp cart
 cart = apply_clearance(cart)
 pp cart
+
 
 
   # BEFORE it begins the work of calculating the total (or else you might have

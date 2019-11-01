@@ -90,7 +90,7 @@ pp cart
 cart = apply_clearance(cart)
 pp cart
 
-whi
+while i 
 
 
 

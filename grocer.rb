@@ -85,7 +85,7 @@ pp cart
 cart = apply_coupons(cart, coupons)
 pp cart
 cart = apply_clearance(cart)
-ppcart
+pp cart
 
 
   # BEFORE it begins the work of calculating the total (or else you might have
